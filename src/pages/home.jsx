@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 import Weather from '../components/Weather.jsx'
 
 function Home() {
@@ -23,11 +23,12 @@ function Home() {
           responsive design. Learn, create and build something amazing.
         </p>
 
-        <a href="/internship-task-4/about"
+        <Link
+          to="/about"
           className="mt-8 rounded-xl bg-blue-600 px-8 py-4 font-semibold shadow-lg transition hover:bg-blue-500"
         >
           Get Started →
-        </a>
+        </Link>
 
       </section>
 
